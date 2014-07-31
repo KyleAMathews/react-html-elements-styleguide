@@ -16,7 +16,7 @@
     "styleguide"
   ],
   "license": "MIT",
-  "main": "index.js",
+  "main": "./dist/styleguide.js",
   "peerDependencies": {
     "react": ">=0.11.0"
   },
