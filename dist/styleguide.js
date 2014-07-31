@@ -10,7 +10,7 @@ module.exports = React.createClass({
       "id": "headings"
     }, "Headings"), React.DOM.h1(null, "Heading 1"), React.DOM.h2(null, "Heading 2"), React.DOM.h3(null, "Heading 3"), React.DOM.h4(null, "Heading 4"), React.DOM.h5(null, "Heading 5"), React.DOM.h6(null, "Heading 6"), React.DOM.hr(null), React.DOM.h1({
       "id": "code"
-    }, "Code"), React.DOM.em(null, "SCSS code from this project that defines styles for the code element"), React.DOM.pre(null, React.DOM.code({
+    }, "Code"), React.DOM.pre(null, React.DOM.code({
       "ref": "code"
     }, 'code {\n  @include border-radius(3px);\n  @include force-wrap();\n  background: gray(90%);\n  border: 1px solid gray(80%);\n  display: inline;\n  font-family: Inconsolata, monospace, serif;\n  font-size: 16px;\n  line-height: 20px;\n  max-width: 100%;\n  overflow: auto;\n  padding: 0 rhythm(0.125);\n}')), React.DOM.hr(null), React.DOM.h1({
       "id": "paragraph"
