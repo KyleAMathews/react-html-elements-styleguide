@@ -25,7 +25,6 @@ module.exports = React.createClass
       <hr />
 
       <h1 id="code">Code</h1>
-      <em>SCSS code from this project that defines styles for the code element</em>
       <pre>
         <code ref="code">
         {'''
