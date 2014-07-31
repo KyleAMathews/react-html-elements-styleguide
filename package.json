@@ -18,9 +18,6 @@
     "type": "git",
     "url": "https://github.com/KyleAMathews/react-html-elements-styleguide.git"
   },
-  "scripts": {
-    "prepublish": "./node_modules/.bin/csx-coffee -c -o dist/ src/styleguide.cjsx"
-  },
   "dependencies": {
     "coffee-react": "^0.4.0",
     "react": "^0.11.1"
