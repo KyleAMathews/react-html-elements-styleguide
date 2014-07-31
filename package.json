@@ -6,7 +6,7 @@
   "bugs": {
     "url": "https://github.com/KyleAMathews/react-html-elements-styleguide/issues"
   },
-  "dev-dependencies": {
+  "devDependencies": {
     "coffee-react": "^0.4.0"
   },
   "homepage": "https://github.com/KyleAMathews/react-html-elements-styleguide",
@@ -18,7 +18,7 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "react": "^0.11.1"
+    "react": ">=0.11.0"
   },
   "repository": {
     "type": "git",
