@@ -24,28 +24,6 @@ module.exports = React.createClass
 
       <hr />
 
-      <h1 id="code">Code</h1>
-      <pre>
-        <code ref="code">
-        {'''
-          code {
-            @include border-radius(3px);
-            @include force-wrap();
-            background: gray(90%);
-            border: 1px solid gray(80%);
-            display: inline;
-            font-family: Inconsolata, monospace, serif;
-            font-size: 16px;
-            line-height: 20px;
-            max-width: 100%;
-            overflow: auto;
-            padding: 0 rhythm(0.125);
-          }
-        '''}
-        </code>
-      </pre>
-      <hr />
-
       <h1 id="paragraph">Paragraph</h1>
 
       <img src="http://placekitten.com/800/300" />
@@ -127,6 +105,29 @@ And over all the sky—the sky! far, far out of reach, studded,
       <blockquote>
         <p>"This stylesheet is going to help so freaking much." <br />-Blockquote</p>
       </blockquote>
+
+      <hr />
+
+      <h1 id="code">Code</h1>
+      <pre>
+        <code ref="code">
+        {'''
+          code {
+            @include border-radius(3px);
+            @include force-wrap();
+            background: gray(90%);
+            border: 1px solid gray(80%);
+            display: inline;
+            font-family: Inconsolata, monospace, serif;
+            font-size: 16px;
+            line-height: 20px;
+            max-width: 100%;
+            overflow: auto;
+            padding: 0 rhythm(0.125);
+          }
+        '''}
+        </code>
+      </pre>
 
       <hr />
 
